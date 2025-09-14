@@ -1,3 +1,3 @@
-export default function Dashboard() {
-  return <h1>Warranty Dashboard</h1>;
+export default function WarrantyDashboard() {
+  return <h1>Hello from Samanvitha’s Warranty Dashboard!</h1>;
 }
