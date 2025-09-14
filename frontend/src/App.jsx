@@ -5,7 +5,7 @@ import Landing from "./pages/Landing";
 import ProductRegistration from "./pages/ProductRegistration";
 import WarrantyDashboard from "./pages/WarrantyDashboard";
 import ClaimWarranty from "./pages/ClaimWarranty";
-import VerificationPage from "./pages/VerificationPage"; //
+import VerificationPage from "./pages/VerificationPage";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/register" element={<ProductRegistration />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<WarrantyDashboard />} />
         <Route path="/claim" element={<ClaimWarranty />} />
         <Route path="/verify" element={<VerificationPage />} />
       </Routes>
